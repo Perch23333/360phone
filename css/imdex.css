@@ -1,0 +1,215 @@
+/*
+* @Author: Administrator
+* @Date:   2018-03-21 22:28:38
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-03-23 16:26:37
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background: #f9f9f9;
+}
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 0.53rem;
+	background: #212121;
+}
+.header_left{
+	width: 1.2rem;
+	height: 0.29rem;
+	float: left;
+	margin: 0.12rem 0 0 0.2rem;
+}
+/* .header_left i{
+	float: left;
+	color: #fff;
+	font-size: 0.3rem;
+} */
+
+.header_left img{
+	display: block;
+	width: 1.2rem;
+}
+.header_right{
+	width: 0.26rem;
+	height: 0.16rem;
+	/* background: red; */
+	float: right;
+	margin: 0.19rem 0.19rem 0;
+}
+.header_right span{
+	display: block;
+	width: 100%;
+	height: 0.02rem;
+	margin-bottom: 0.05rem;
+	background: #595959;
+}
+.header_right span:last child{
+	margin-bottom: 0;
+}
+/* banner开始 */
+.banner{
+	width: 4rem;
+	height: 5.63rem;
+	background: blue;
+	margin: 0 auto;
+}
+.swiper-container{
+	width: 4rem;
+	height: 5.63rem;
+}
+.swiper-slide img{
+	width: 4rem;
+	height: 5.63rem;
+}
+/* 图片列表开始 */
+.img_list{
+	width: 100%;
+	height: auto;
+}
+.img_list li{
+	width: 100%;
+	height: 2.5rem;
+	text-align: center;
+	border-bottom: 0.01rem solid #fff;
+}
+.img_list li a{
+	display: block;
+	width: 100%;
+	height: 2.5rem;
+}
+.list1{
+	background: url('../img/promo01.jpg') no-repeat center;
+	background-size: cover;
+	overflow: hidden;
+}
+.list2{
+	background: url('../img/promo02.jpg') no-repeat center;
+	background-size: cover;
+	overflow: hidden;
+}
+.list3{
+	background: url('../img/promo03.jpg') no-repeat center;
+	background-size: cover;
+	overflow: hidden;
+}
+.list4{
+	background: url('../img/promo04.jpg') no-repeat center;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.img_list li a h1{
+	font-size: 0.19rem;
+	color: #666666;	
+	text-align: center;
+	line-height: 0.26rem;
+	margin-top: 0.22rem;
+	font-family: "微软雅黑";
+	font-weight: normal;
+}
+.img_list li a h2{
+	font-size: 0.16rem;
+	color: #666666;	
+	text-align: center;
+	line-height: 0.26rem;
+	font-family: "微软雅黑";
+	font-weight: normal;
+}
+/* 菜单开始 */
+.menu{
+	width: 3.6rem;
+	height: 1.52rem;
+	background: #f9f9f9;
+	margin: 0.2rem auto 0;
+}
+.menu li{
+	width: 100%;
+	height: 0.38rem;
+	border-bottom: 0.01rem solid #cccccc;
+}
+.menu li .left{
+	font-size: 0.14rem;
+	color: #666666;
+	float: left;
+	line-height: 0.38rem;
+	font-weight: bold;
+}
+.menu li .right{
+	font-size: 0.2rem;
+	color: #666666;
+	float: right;
+	line-height: 0.38rem;
+	font-weight: bold;
+}
+/* 信息开始 */
+.xinxi{
+	width: 3.8rem;
+	height: 1.28rem;
+	border-bottom: 0.01rem solid #e2e2e2;
+	overflow: hidden;
+}
+.xinxi h1{
+	font-size: 0.14rem;
+	color: #333333;
+	line-height: 0.25rem;
+	margin-top: 0.2rem;
+	text-align: center;
+}
+.xinxi h2{
+	font-size: 0.11rem;
+	color: #666666;
+	line-height: 0.23rem;
+	text-align: center;
+}
+.xinxi h3{
+	font-size: 0.12rem;
+	color: #666666;
+	line-height: 0.22rem;
+	text-align: center;
+}
+/* 底部开始 */
+.bottom{
+	width: 4rem;
+	height: 1rem;
+	background: #f9f9f9;
+	overflow: hidden;
+}
+.bottom h1{
+	font-size: 0.11rem;
+	color: #aeaeae;
+	line-height: 0.18rem;
+	font-weight: normal;
+	margin: 0.15rem 0 0 0.15rem;
+}
+.bottom h2{
+	font-size: 0.11rem;
+	color: #aeaeae;
+	font-weight: normal;
+	line-height: 0.18rem;
+	margin: 0 0 0 0.15rem;
+}.bottom h3{
+	font-size: 0.12rem;
+	font-weight: normal;
+	color: #aeaeae;
+	line-height: 0.2rem;
+	margin: 0 0 0 0.15rem;
+}
+.icon{
+	width: 4rem;
+	height: 0.73rem;
+	background: #f9f9f9;
+}
+.icon i{
+	font-size: 0.4rem;
+	float: left;
+	color: #aaaaaa;
+	margin-left: .15rem;
+}
